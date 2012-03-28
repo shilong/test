@@ -1,0 +1,144 @@
+/*
+===================
+@copyright: Copyright 2012,phpwind.com
+@author: yanchixia@aliyun-inc.com
+===================
+*/
+/*
+===================
+初始化【请勿修改】
+===================
+*/
+html,body, 
+div, dl, dt, dd, ul, p, th, td,
+h1, h2, h3, h4, h5, h6, 
+pre, code, form, 
+fieldset, legend{
+	margin: 0;
+	padding: 0;
+}
+cite, 
+em, 
+strong, 
+th {
+	font-style: normal;
+}
+td, 
+th, 
+div {
+	word-break:break-all;
+	word-wrap:break-word;
+}
+table {
+	border-collapse: collapse;
+	border-spacing:0;
+}
+th {
+	text-align: left;
+	font-weight:100;
+}
+ol li {
+	list-style: decimal outside;
+}
+ol{
+	padding:0 0 0 18px;
+	margin:0;
+}
+li {
+	list-style:none;
+}
+img {
+	border: 0;
+}
+html {
+	-webkit-text-size-adjust:none;
+}
+
+/*
+===================
+清除浮动【请勿修改】
+>>	cc	作用于父模型
+>>	c		作用于浮动模型后，父模型区域里
+===================
+*/
+.cc{
+	zoom:1;
+}
+.cc:after{
+	content:'\20';
+	display:block;
+	height:0;
+	clear:both;
+	visibility: hidden;
+}
+
+/*
+===================
+结构
+===================
+*/
+body{
+	background:url(bg.png);
+}
+.head_wrap{
+	background:url(head.png);
+	height:180px;
+	border-bottom:1px solid #6aa4ce;
+}
+.main_wrap{
+	border-top:1px solid #ffffff;
+}
+.head,
+.main{
+	width:800px;
+	margin:0 auto;
+}
+.head img{
+	float:left;
+	margin:60px 0 0 0;
+}
+
+
+
+.login{
+	padding:50px 20px;
+}
+.login dd{
+	padding:5px 0 20px;
+}
+.login .input{
+	padding:4px 4px;
+	font-size:100%;
+	line-height:18px;
+	border:1px solid #ccc;
+	background-color:#fff;
+	box-shadow:2px 2px 2px #f0f0f0 inset;
+	vertical-align: middle;
+  margin: 0;
+	font-family: inherit;
+	color:#333;
+	width:200px;
+}
+.input:focus{
+	outline:1px solid #99d8f5;
+	border-color:#99d8f5;
+}
+.login button{
+	overflow:visible;
+	padding:0 20px;
+	cursor:pointer;
+	height:30px;
+	text-align:center;
+	width:80px;
+}
+
+
+
+
+
+
+
+
+
+
+
